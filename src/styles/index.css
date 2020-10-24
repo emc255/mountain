@@ -1,0 +1,278 @@
+/* homepage css */
+.accordion {
+  width: 150px;
+  background: none !important;
+  visibility: hidden;
+  display: none;
+}
+
+.right-home-nav-link {
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0 0;
+}
+
+.text-link {
+  font-size: 20px;
+  color: white;
+  text-decoration: underline;
+}
+
+/* history css */
+
+.history-header {
+  max-width: 1200px;
+  background-color: white;
+  height: 6vh;
+  margin: auto;
+}
+
+.history-header-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.history-right-nav-link,
+.history-left-nav-link {
+  padding-top: 10px;
+}
+
+.history-right-nav-link {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.history-logo {
+  margin-top: 10px;
+}
+
+.history-text-link {
+  font-size: 15px;
+  color: black;
+  text-decoration: underline;
+}
+
+.history-upper-container {
+  width: 90%;
+  height: 70vh;
+  margin: auto;
+}
+
+.history-upper-container-flex {
+  display: flex;
+  width: 100%;
+  height: 160px;
+  padding-top: 100px;
+}
+
+.history-text-number {
+  font-size: 120px;
+  font-weight: 700;
+}
+
+.history-text-history {
+  position: relative;
+  font-size: 30px;
+}
+
+.history-text-period {
+  font-size: 180px;
+  position: relative;
+  top: -44px;
+  left: -8px;
+}
+
+.history-text-info {
+  padding-left: 80px;
+}
+
+.history-footer {
+  height: 24vh;
+  max-width: 1200px;
+  background: rgb(45, 83, 140, 0.5);
+
+  margin: auto;
+}
+
+.history-footer-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.slider-image-container {
+  width: 100%;
+  margin: auto;
+}
+
+.slider-container {
+  padding-top: 20px;
+  height: 24vh;
+}
+
+img {
+  width: 230px;
+  margin: auto;
+}
+
+.slick-slide > div {
+  width: 80%;
+  margin-top: 50px;
+  margin: auto;
+  height: 18vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+/* team css */
+.team-header {
+  max-width: 1200px;
+  background-color: white;
+  height: 20vh;
+  margin: auto;
+}
+
+.team-header-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.team-upper-container-flex {
+  display: flex;
+  padding-top: 60px;
+}
+
+.team-text-number {
+  font-size: 120px;
+  font-weight: 700;
+}
+
+.team-period-history-flex {
+  padding-right: 20px;
+}
+
+.team-text-history {
+  position: relative;
+  font-size: 30px;
+}
+
+.team-text-period {
+  font-size: 180px;
+  position: relative;
+  top: -44px;
+  left: -8px;
+}
+
+.team-nav {
+  max-width: 1200px;
+  background-color: #365b99;
+  height: 6vh;
+  margin: auto;
+}
+
+.team-nav-container {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+}
+
+.mountain-text {
+  width: 180px;
+  height: 48px;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.mountainActive {
+  background: gray;
+  text-decoration: underline;
+  color: #365b99;
+}
+
+.team-main-container {
+  max-width: 900px;
+  height: 68vh;
+  margin: auto;
+}
+
+.team-content-container {
+  width: 300px;
+  height: 200px;
+  background: rgba(250, 243, 242, 0.8);
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+.team-text-sched {
+  font-size: 24px;
+  font-weight: 600;
+  color: blue;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.team-inner-content-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.team-footer {
+  max-width: 1200px;
+  background-color: #365b99;
+  height: 6vh;
+  margin: auto;
+}
+
+.team-footer-container {
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.footer-text-logo {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.footer-text-reserve {
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 700px) {
+  /* homepage css */
+  .right-home-nav-link {
+    width: 200px;
+  }
+  /* history css */
+}
+
+@media only screen and (max-width: 420px) {
+  /* homepage css */
+  .right-home-nav-link {
+    visibility: hidden;
+    display: none;
+  }
+  .accordion {
+    visibility: visible;
+    display: block;
+  }
+  .text-link {
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+  }
+  /* team css */
+  .team-content-container {
+    left: 40px;
+  }
+}
