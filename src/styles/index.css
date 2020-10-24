@@ -275,4 +275,13 @@ img {
   .team-content-container {
     left: 40px;
   }
+  .footer-text-logo {
+    padding-top: 5px;
+    font-size: 18px;
+  }
+
+  .footer-text-reserve {
+    padding-top: 5px;
+    padding-left: 60px;
+  }
 }
