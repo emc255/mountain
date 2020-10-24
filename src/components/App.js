@@ -8,8 +8,8 @@ import Team from "./Team"
 
 const App = () => {
   return (
-    <BrowserRouter>
-        <Route exact path="/mountain" component={Homepage} />
+    <BrowserRouter basename={process.env.PUBLIC_URL}> 
+        <Route exact path="/" component={Homepage} />
         <Route path="/history" component={History} />
         <Route path="/team" component={Team} /> 
     </BrowserRouter>
